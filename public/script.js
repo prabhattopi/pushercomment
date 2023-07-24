@@ -1,6 +1,6 @@
 (function(){
     Pusher.logToConsole=true;
-    const serverUrl="https://vscode-akble.run-ap-south1.goorm.site/proxy/5000/";
+    const serverUrl="/";
     const comments=[];
     const pusher=new Pusher(process.env.key, {
         cluster: process.env.cluster,
